@@ -1,0 +1,14 @@
+https://tutorial.djangogirls.org/ru/installation/
+
+
+python -m venv myenva
+
+python -m venv myenvb
+python -m venv myenvc
+
+Запусти виртуальное окружение, выполнив:
+C:\Users\Name\PythonEnv> myvenv\Scripts\activate
+
+(myvenv) ~$ python3 -m pip install --upgrade pip
+pip install django~=1.11.0
+
