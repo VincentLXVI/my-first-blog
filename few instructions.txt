@@ -7,8 +7,10 @@ python -m venv myenvb
 python -m venv myenvc
 
 Запусти виртуальное окружение, выполнив:
-C:\Users\Name\PythonEnv> myvenv\Scripts\activate
+C:\Users\Name\PythonEnv> myenv\Scripts\activate
 
 (myvenv) ~$ python3 -m pip install --upgrade pip
 pip install django~=1.11.0
+
+python manage.py runserver 0:8000
 
