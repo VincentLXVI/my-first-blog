@@ -1,3 +1,4 @@
+
 https://tutorial.djangogirls.org/ru/installation/
 
 
@@ -7,10 +8,19 @@ python -m venv myenvb
 python -m venv myenvc
 
 Запусти виртуальное окружение, выполнив:
-C:\Users\Name\PythonEnv> myenv\Scripts\activate
+C:\Users\Name\DjangoEnv> myenv\Scripts\activate
 
 (myvenv) ~$ python3 -m pip install --upgrade pip
 pip install django~=1.11.0
 
 python manage.py runserver 0:8000
 
+git status
+git add --all .
+git commit -m "comment"
+git push
+Открой вкладку "терминалы" на PythonAnywhere и переключись на уже запущенную консоль Bash (или новую). Затем набери следующую команду:
+command-line
+$ cd ~/my-first-blog
+$ git pull
+[...]
